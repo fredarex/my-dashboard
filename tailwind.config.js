@@ -8,13 +8,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'primary':'#2D2D2D',
-        'kdark1':'#27272E',
-        'kdark2':'#292A2E',
-        'kdark3':'#121212',
-        'kdark4':'#212121',
-        'kgray1':'#F9FAFB',
-        'kgray2':'#425466'
+        'primary':'#7F56D9',
+        'kdarkpurple':'#53389E',
+        'klightpurple':'#6941C6',
+        'kgrayprimary':'#F4EBFF'
+        
       },
       fontSize:{
         'kbodymain':'63px',
@@ -27,9 +25,9 @@ module.exports = {
         'kbody7':'12px'
 
       },
-      // fontFamily: {
-      //   Eina01: ['Eina01-Regular', ...defaultTheme.fontFamily.sans]
-      // }
+      fontFamily: {
+        Inter: ['Inter', ...defaultTheme.fontFamily.sans]
+      }
     }
   },
   plugins: [],

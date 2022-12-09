@@ -1,12 +1,13 @@
-import { chart_icon, home_icon, overview_icon, user_icon } from "./image";
+import { chart_icon, customers_icon, database_icon, flag_icon, home_icon, life_buoy_icon, overview_icon, settings_icon, update_icon, user_icon } from "./image";
 
-export const links = [
+
+const Mylinks = [
     {
         title: 'Dashboard',
         icon: home_icon,
         links: [
             {
-                name: 'overview',
+                name: 'Overview',
                 icon: overview_icon
             },
             {
@@ -26,11 +27,91 @@ export const links = [
         ]
     },
     {
-        title: 'Apps',
+        title: 'Database',
+        icon: database_icon,
         links: [
             {
-                
+                name: 'My database',
+                icon: database_icon
+            }
+        ]
+    },
+    {
+        title: 'Update',
+        icon: update_icon,
+        links: [
+            {
+                name: 'Update',
+                icon: update_icon
+            }
+        ]
+    },
+    {
+        title: 'Flag',
+        icon: flag_icon,
+        links: [
+            {
+                name: 'My flag',
+                icon: flag_icon
+            }
+        ]
+    },
+    {
+        title: 'Customers',
+        icon: customers_icon,
+        links: [
+            {
+                name: 'Customers',
+                icon: customers_icon
+            }
+        ]
+    },
+    {
+        title: 'Life Buoy',
+        icon: life_buoy_icon,
+        links: [
+            {
+                name: 'Life buoy',
+                icon: life_buoy_icon
+            }
+        ]
+    },
+    {
+        title: 'Settings',
+        icon: settings_icon,
+        links: [
+            {
+                name: 'My settings',
+                icon: settings_icon
             }
         ]
     }
-]
+    
+];
+
+// const otherLink = [
+//     {
+//         title: 'Life Buoy',
+//         icon: life_buoy_icon,
+//         links: [
+//             {
+//                 name: 'Life buoy',
+//                 icon: life_buoy_icon
+//             }
+//         ]
+//     },
+//     {
+//         title: 'Settings',
+//         icon: settings_icon,
+//         links: [
+//             {
+//                 name: 'My settings',
+//                 icon: settings_icon
+//             }
+//         ]
+//     }
+// ]
+
+export {
+    Mylinks
+}
