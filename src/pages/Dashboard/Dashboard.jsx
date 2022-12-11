@@ -4,7 +4,7 @@ import {FaPlus,FaSearch} from 'react-icons/fa'
 import { customersCardData } from '../../constant/data';
 import Card from '../../components/Card/Card';
 import { useSelector } from 'react-redux';
-import List from '../../components/Table/Table';
+import Datatable from '../../components/Table/Table';
 const mapState = state => ({
   activeMenu: state.features.activeMenu
 });
@@ -61,7 +61,7 @@ function Dashboard() {
         
       </div>
       <div className='mt-6'>
-        <List />
+        <Datatable />
       </div>
       
     </div>
