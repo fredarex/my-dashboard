@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import { Link, NavLink, useLocation } from 'react-router-dom';
+import { Link, NavLink} from 'react-router-dom';
 import { Mylinks} from '../../constant/data'
 import { logomark_icon,avatar_icon,logout_icon } from '../../constant/image';
 import { setActiveMenu, setShowSideMenu } from '../../redux/Features/features.action';
@@ -9,7 +9,7 @@ const mapState = (state) => ({
   screenSize: state.features.screenSize,
   activeMenu: state.features.activeMenu
 })
-function Sidebar({setActiveSideMenu}) {
+function Sidebar() {
   const {screenSize,activeMenu} = useSelector(mapState);
   const dispatch = useDispatch();
   const [curLinkData, setCurLinkData] = useState('Dashboard');

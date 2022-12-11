@@ -1,10 +1,8 @@
-import { useState } from 'react';
 import { useSelector } from 'react-redux';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Sidebar from './components/Sidebar/Sidebar';
-import Chart from './pages/Chart/Chart';
 import Dashboard from './pages/Dashboard/Dashboard';
 import Details from './pages/Details/Details';
 import Error from './pages/Error/Error';
