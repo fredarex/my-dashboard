@@ -11,7 +11,11 @@ module.exports = {
         'primary':'#7F56D9',
         'kdarkpurple':'#53389E',
         'klightpurple':'#6941C6',
-        'kgrayprimary':'#F4EBFF'
+        'kgrayprimary':'#F4EBFF',
+        'kdarkgray':'#667085',
+        'kblack1':'#101828',
+        'kblack2':'#344054'
+        
         
       },
       fontSize:{

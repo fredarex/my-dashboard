@@ -89,29 +89,26 @@ const Mylinks = [
     
 ];
 
-// const otherLink = [
-//     {
-//         title: 'Life Buoy',
-//         icon: life_buoy_icon,
-//         links: [
-//             {
-//                 name: 'Life buoy',
-//                 icon: life_buoy_icon
-//             }
-//         ]
-//     },
-//     {
-//         title: 'Settings',
-//         icon: settings_icon,
-//         links: [
-//             {
-//                 name: 'My settings',
-//                 icon: settings_icon
-//             }
-//         ]
-//     }
-// ]
+const customersCardData = [
+    {
+        title: 'Total customers',
+        amount:'2,420',
+        percentage:'40'
+    },
+    {
+        title: 'Members',
+        amount:'1,210',
+        percentage:'10'
+    },
+    {
+        title: 'Active now',
+        amount:'316',
+        percentage:'20'
+    }
+
+]
 
 export {
-    Mylinks
+    Mylinks,
+    customersCardData
 }
